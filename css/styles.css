@@ -1,0 +1,52 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.head-center {
+  text-align: center;
+}
+
+section {
+  height: 150px;
+}
+
+/*Navigation */
+
+nav {
+	display: flex;
+	height: 48px;
+	justify-content: flex-end;
+	background: transparent;
+
+}
+.menu__row {
+	display: inline-flex;
+	padding-right: 25px;
+	list-style-type: none;
+}
+
+.menu__list {
+	padding-left: 25px;
+	color: black;
+}
+
+/* Header */
+
+.header__section {
+	height: 250px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.header__h1, 
+.header__h2 {
+	margin: 0;
+}
+
+/* Contact Us */
+
+.contact__section {
+  text-align: center;
+}
